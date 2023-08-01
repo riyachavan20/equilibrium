@@ -1,0 +1,130 @@
+*{
+    /* font-size: 18px; */
+    font-family: 'Libre Baskerville', serif;
+font-family: 'Outfit', sans-serif;
+padding: 0;
+margin: 0;
+}
+.container{
+    width: 240px;
+    height: 405px;
+    align-items: center;
+    position: absolute;
+    top: 120px;
+    left: 650px;
+    border-radius: 10px;
+    background-color: hsl(216, 50%, 16%);
+}
+.title{
+    color: white;
+    margin-bottom: 12px;
+    font-size: 15px;
+}
+.title:hover{
+    cursor: pointer;
+    color: rgb(0, 255, 248);
+}
+.wholecontent{
+    position: absolute;
+    top: 14px;
+    left: 20px;
+    right: 20px;
+}
+.image-equilibrium{
+    width: 200px;
+    height: 210px;
+    margin-bottom: 15px;
+}
+.image-equilibrium img{
+    width: 200px;
+    height: 210px;
+    border-radius: 7px;
+    top: 10px;
+    margin-bottom: 12px;
+    opacity: 1;
+}
+.image-equilibrium img:hover {
+    position: relative;
+    z-index: -1;
+}
+.image-equilibrium .glow:hover{
+    /* cursor: pointer;
+    background: rgb(0, 255, 248);
+    opacity: 1; */
+    opacity: 0.5;
+  }
+  .glow{
+    width: 200px;
+    height: 210px;
+    background: rgb(0, 255, 248);
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+  }
+  .eye{
+    text-align: center;
+   margin-top: 100px;
+  }
+.para{
+    color: rgb(139, 172, 217);
+    margin-bottom: 16px;
+    font-size: 12px;
+}
+.textbesidesimg{
+    color: rgb(139, 172, 217);
+    font-size: 10px;
+    margin-top: 4px;
+}
+.hr{
+    color: aqua;
+}
+span{
+    color: white;
+}
+span:hover{
+    color: rgb(0, 255, 248);
+    cursor: pointer;
+}
+.lefttext{
+    color: rgb(0, 255, 248);
+    margin-top: 2px;
+}
+.righttext{
+    color: rgb(139, 172, 217);
+    margin-top: 2px;
+}
+.leftimg img{
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.left{
+    display: flex;
+    gap: 4px;
+    font-size: 10px;
+}
+.right{
+    display: flex;
+    gap: 4px;
+    font-size: 10px;
+}
+.lefttext{
+    font-size: 12px;
+}
+.righttext{
+    font-size: 12px;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+.footer{
+    display: flex;
+    gap: 10px;
+}
+body{
+    background-color: hsl(217, 54%, 11%);
+    position: relative;
+}
